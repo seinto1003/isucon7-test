@@ -1,7 +1,6 @@
 require 'digest/sha1'
 require 'mysql2'
 require 'sinatra/base'
-#test
 class App < Sinatra::Base
   configure do
     set :session_secret, 'tonymoris'
